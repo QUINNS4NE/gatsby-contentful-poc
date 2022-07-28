@@ -15,7 +15,7 @@ const Employees = ({ pageTitle, children }) => {
           }
     }
   `)
-=  return (
+   return (
     <div>
         {data.allContentfulEmployeeInfo.edges.map(e => <div key={e.node.name}>{e.node.name}</div>)}
     </div>
